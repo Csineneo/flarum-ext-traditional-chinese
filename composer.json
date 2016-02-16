@@ -1,5 +1,5 @@
 {
-    "name": "flarum/traditional-chinese",
+    "name": "Csineneo/flarum-ext-traditional-chinese",
     "type": "flarum-extension",
     "description": "Traditional Chinese language pack for Flarum",
     "keywords": ["locale"],
@@ -12,7 +12,7 @@
         }
     ],
     "support": {
-        "source": "https://github.com/Csineneo/flarum-traditional-chinese.git",
+        "source": "https://github.com/Csineneo/flarum-ext-traditional-chinese.git",
 		"issues": "https://vivaldi.club/t/flarum"
     },
     "require": {
