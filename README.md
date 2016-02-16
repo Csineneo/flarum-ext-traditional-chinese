@@ -5,7 +5,7 @@ Flarum v0.1.0-beta.4
 
 - ### 安裝
 ```
-composer require csineneo/traditional-chinese
+composer require csineneo/flarum-ext-traditional-chinese
 ```
 
 - ### 示例
