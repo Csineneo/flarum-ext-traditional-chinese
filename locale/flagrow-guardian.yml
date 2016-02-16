@@ -1,0 +1,18 @@
+hyn-guardian:
+  package_name: "Guardian"
+  package_description: "查看用戶資料"
+  generic:
+    never: 從未
+  admin:
+    nav:
+      guardian_button: => hyn-guardian.package_name
+      guardian_text: => hyn-guardian.package_description
+    grid:
+      user:
+        joined_at: 註冊時間
+        last_seen_at: 最後在線時間
+        badges: 徽章
+        activated: 激活
+        details: 詳細資料
+        states:
+          never_visited: => hyn-guardian.generic.never
