@@ -1,5 +1,5 @@
 {
-    "name": "Csineneo/flarum-ext-traditional-chinese",
+    "name": "csineneo/flarum-ext-traditional-chinese",
     "type": "flarum-extension",
     "description": "Traditional Chinese language pack for Flarum",
     "keywords": ["locale"],
