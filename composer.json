@@ -12,7 +12,7 @@
         }
     ],
     "support": {
-        "source": "https://github.com/Csineneo/flarum.git",
+        "source": "https://github.com/Csineneo/flarum-traditional-chinese.git",
 		"issues": "https://vivaldi.club/t/flarum"
     },
     "require": {
