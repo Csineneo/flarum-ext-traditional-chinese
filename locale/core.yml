@@ -9,7 +9,7 @@ core:
 
     # These translations are used in the placeholder Add Extension modal dialog.
     add_extension:
-      developer_text: "如果你是開發者，你可以<a>閱讀文檔</a>並開放你自己的延伸套件。"
+      developer_text: "如果你是開發者，你可以<a>閱讀文檔</a>並自行開發延伸套件。"
       install_text: "在此期間你可以造訪<a>Flarum 社群</a>搜尋延伸套件，並通過 Composer 手動安裝。"
       temporary_text: "終有一天，在不遠的將來，此對話框將讓你輕鬆地新增延伸套件。如我們所說，我們將建立一套生態系統！"
 
