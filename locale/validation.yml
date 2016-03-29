@@ -19,11 +19,13 @@ validation:
   different: ":attribute 及 :other 必須不同"
   digits: ":attribute 必須是 :digits 位數字"
   digits_between: ":attribute 必須介於 :min 至 :max 位數字之間"
+  distinct: ":attribute 包含重複的值"
   email: ":attribute 必須是一個有效的郵箱位址"
   exists: "選擇的 :attribute 無效"
   filled: ":attribute 不能為空"
   image: ":attribute 必須是圖片"
   in: "屬性:attribute 非法"
+  in_array: ":attribute 不存在於 :other."
   integer: ":attribute 必須是整數"
   ip: ":attribute 必須有效的 IP 位址"
   json: ":attribute 必須是合法的 JSON 字符串"
@@ -40,9 +42,11 @@ validation:
     array: ":attribute 不能少於 :min 項"
   not_in: "屬性 :attribute 非法"
   numeric: ":attribute 必須由數字組成"
+  present: ":attribute 屬性必須存在"
   regex: ":attribute 格式非法"
   required: ":attribute 不能為空"
   required_if: "當 :other 為 :value 時 :attribute 不能為空"
+  required_unless: ":attribute 不能為空，除非 :other 屬於 :values."
   required_with: "當 :values 存在時 :attribute 不能為空"
   required_with_all: "當 :values 都存在時 :attribute 不能為空"
   required_without: "當 :values 不存在時 :attribute 不能為空"
@@ -66,3 +70,8 @@ validation:
     content: 正文
     name_singular: 單數名稱
     name_plural: 複數名稱
+
+  custom:
+    username:
+      regex: "使用者名稱僅能包含字母、數字、短劃線"
+
