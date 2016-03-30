@@ -41,20 +41,20 @@ core:
 
     # These translations are used in the Dashboard page.
     dashboard:
-      beta_warning_text: "這是一個 <strong>Beta 版本</strong>，僅供測試，不要在生產環境部署。"
+      beta_warning_text: "這是一個 <strong>Beta 版本</strong>，僅供測試，不要部署在生產環境。"
       contributing_text: "Want to look for bugs and contribute? Read the <a>Contributing docs</a>."
       extension_text: "Interested in developing extensions? Read the <a>Extension docs</a>."
       features_text: "Got an idea to improve a feature? Tell us about it under the <a>Features tag</a>."
       support_text: "Found a bug? Please report it in our forum, under the <a>Support tag</a>."
       troubleshooting_text: "Having problems? Follow the instructions in the <a>Troubleshooting docs</a>."
       version_text: "Thanks for trying out Flarum! You are running version {version}."
-      welcome_text: "歡迎使用 Flarum Beta!"
+      welcome_text: "歡迎使用 Flarum Beta！"
 
     # These translations are used in the Edit Custom CSS modal dialog.
     edit_css:
       customize_text: "通過增加 LESS/CSS 程式碼以客製化論壇外觀，此設定將覆蓋 Flarum <a>預設樣式</a>。"
       submit_button: => core.ref.save_changes
-      title: Edit Custom CSS
+      title: 編輯客製化 CSS
 
     # These translations are used in the Edit Group modal dialog.
     edit_group:
@@ -139,9 +139,9 @@ core:
     # These translations are used in the Change Email modal dialog.
     change_email:
       confirmation_message: => core.ref.confirmation_email_sent
-	  confirm_password_label: Confirm Password
+      confirm_password_label: 再次鍵入密碼
       dismiss_button: => core.ref.okay
-	  incorrect_password_message: 鍵入的密碼不正確。
+      incorrect_password_message: 鍵入的密碼不正確。
       submit_button: => core.ref.save_changes
       title: => core.ref.change_email
 
@@ -163,7 +163,7 @@ core:
       body_placeholder: 撰寫貼文...
       discard_confirmation: "貼文尚未發佈，是否丟棄？"
       submit_button: 發佈
-	  title: => core.ref.start_a_discussion
+      title: => core.ref.start_a_discussion
       title_placeholder: 標題
 
     # These translations are used by the composer when editing a post.
@@ -213,7 +213,7 @@ core:
       dismiss_button: => core.ref.okay
       email_placeholder: => core.ref.email
       email_sent_message: 已將包含密碼重設連結的郵件發送至該郵箱，若未收到請檢查垃圾箱。
-	  not_found_message: 沒有使用此郵箱位址註冊的使用者。
+      not_found_message: 沒有使用此郵箱位址註冊的使用者。
       submit_button: 重設密碼
       text: 請鍵入郵箱位址，我們將發送密碼重設連結至該郵箱。
       title: 忘記密碼
@@ -232,10 +232,10 @@ core:
     index:
       all_discussions_link: => core.ref.all_discussions
       cannot_start_discussion_button: 無法發佈貼文
-	  mark_all_as_read_confirmation: "你確定要標記所有貼文為已讀嗎？"
+      mark_all_as_read_confirmation: "你確定要標記所有貼文為已讀嗎？"
       mark_all_as_read_tooltip: => core.ref.mark_all_as_read
       refresh_tooltip: 重新載入
-	  start_discussion_button: => core.ref.start_a_discussion
+      start_discussion_button: => core.ref.start_a_discussion
 
     # These translations are used by the sorting control above the discussion list.
     index_sort:
@@ -285,7 +285,7 @@ core:
     # These translations are displayed between posts in the post stream.
     post_stream:
       discussion_renamed_text: "{username} 將標題「{old}」更改為「{new}」"
-	  load_more_button: => core.ref.load_more
+      load_more_button: => core.ref.load_more
       reply_placeholder: => core.ref.write_a_reply
       time_lapsed_text: "{period}後"
 
@@ -325,7 +325,7 @@ core:
       avatar_upload_button: 上傳頭像
       bio_placeholder: 介紹下自己
       discussions_link: => core.ref.discussions
-	  in_discussion_text: "In {discussion}"
+      in_discussion_text: "於 {discussion}"
       joined_date_text: "加入於 {ago}"
       online_text: 線上
       posts_load_more_button: => core.ref.load_more
@@ -410,7 +410,7 @@ core:
     settings: 設定
     sign_up: 註冊
     some_others: "{count} 人|{count} 人"  # Referenced by flarum-likes.yml, flarum-mentions.yml
-	start_a_discussion: 新增貼文
+    start_a_discussion: 新增貼文
     username: 使用者
     write_a_reply: 撰寫回覆...
     you: 你                                     # Referenced by flarum-likes.yml, flarum-mentions.yml

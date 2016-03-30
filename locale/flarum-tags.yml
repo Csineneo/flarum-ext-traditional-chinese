@@ -31,7 +31,7 @@ flarum-tags:
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
-	  allow_edit_tags_label: 允許編輯節點
+      allow_edit_tags_label: 允許編輯節點
       restrict_by_tag_heading: 按節點
       tag_discussions_label: 更改節點
 
