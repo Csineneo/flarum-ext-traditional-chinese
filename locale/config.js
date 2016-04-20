@@ -7,12 +7,12 @@ moment.locale('zh', {
   longDateFormat: {
     LT: 'HH:mm',
     LTS: 'HH:mm:ss',
-    L: 'YYYY-MM-DD',
-    LL: 'YYYY-MM-DD',
+    L: 'M 月 D 日',
+    LL: 'YYYY 年 M 月 DD 日',
     LLL: 'YYYY-MM-DD HH:mm',
     LLLL: 'YYYY-MM-DD HH:mm:ss',
-    l: 'YYYY-MM-DD',
-    ll: 'YYYY-MM-DD',
+    l: 'M/D',
+    ll: 'YY/M/D',
     lll: 'YYYY-MM-DD HH:mm',
     llll: 'YYYY-MM-DD HH:mm:ss'
   },
