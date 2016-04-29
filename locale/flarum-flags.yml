@@ -44,7 +44,7 @@ flarum-flags:
     post:
       dismiss_flag_tooltip: 取消舉報
       flagged_by_text: "{username} 被舉報"
-      flagged_by_with_reason_text: "{username} 因「{reason}」被舉報"
+      flagged_by_with_reason_text: "{username} 因「{reason}」舉報此貼"
 
     # These translations are used by the post control buttons.
     post_controls:
