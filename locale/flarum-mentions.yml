@@ -14,6 +14,7 @@ flarum-mentions:
     # These translations are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:
       others_text: => core.ref.some_others
+      quote_button: 引用
       post_mentioned_text: "{username} 回覆了你的貼文"  # Can be pluralized to agree with the number of users!
       user_mentioned_text: "{username} 提及了你"
 
