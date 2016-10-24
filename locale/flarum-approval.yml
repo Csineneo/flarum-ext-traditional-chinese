@@ -10,15 +10,29 @@ flarum-approval:
     # These translations are used in the Permissions page of the admin interface.
     permissions:
       approve_posts_label: 審核貼文
-      reply_without_approval_label: 不經審核直接回覆
+      reply_without_approval_label: 無需審核直接回覆
+      start_discussions_without_approval_label: 無需審核直接發文
 
   # Translations in this namespace are used by the forum user interface.
   forum:
 
+    # These translations are displayed as tooltips for discussion badges.
+    badge:
+      awaiting_approval_tooltip: => flarum-approval.ref.awaiting_approval
+
+
     # These translations are displayed in the post header.
     post:
-      awaiting_approval_text: 等候審核
+      awaiting_approval_text: => flarum-approval.ref.awaiting_approval
 
     # These translations are used by the post control buttons.
     post_controls:
       approve_button: 審核
+
+  ##
+  # REUSED TRANSLATIONS - These keys should not be used directly in code!
+  ##
+
+  # Translations in this namespace are referenced by two or more unique keys.
+  ref:
+    awaiting_approval: 等候審核
