@@ -1,0 +1,49 @@
+datitisev-dashboard:
+
+  admin:
+
+    ## Translations for new dashboard page
+    dashboard:
+
+      months:
+        january: 一月
+        february: 二月
+        march: 三月
+        april: 四月
+        may: 五月
+        june: 六月
+        july: 七月
+        august: 八月
+        september: 九月
+        october: 十月
+        november: 十一月
+        december: 十二月
+
+      graph:
+        users: 使用者
+        discussions: 主題
+        posts: 貼文
+
+      flarum_version: "Flarum {version}"
+      php_version: "PHP {version}"
+      mysql_version: "MySQL {version}"
+
+      extensionUpdates:
+        checkUpdates_button: 檢查延伸套件更新
+        checking: "正在檢查更新..."
+        updatesAvaliable: "{number} 個更新可用"
+        noUpdates: "暫無更新！"
+        error: "更新檢查出錯！"
+        addClientIdAndSecret:  => datitisev-dashboard.admin.settings.github_description
+
+
+    ## Settings for the extension
+    settings:
+
+      github_heading: Github
+      github_description: "The Client ID and Client Secret of a Github app are necessary so you do not exceed the API rate limit.<br\/\><br\/\> Create an app at Github Developers (https://github.com/settings/developers)<br\/\> and introduce the credentials in the extension settings."
+      clientId_label: Client Id
+      clientSecret_label: Client Secret
+
+      graph_heading: 儀表盤
+      interval_label: 資料更新頻率，以分鐘計（整數），預設為 10 分鐘
