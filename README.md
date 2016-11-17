@@ -1,7 +1,7 @@
 ### Flarum 正體中文語言包
 
 - ### 需求
-Flarum v0.1.0-beta.5
+Flarum v0.1.0-beta.6
 
 - ### 安裝
 ```

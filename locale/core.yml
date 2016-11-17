@@ -18,11 +18,18 @@ core:
       colored_header_label: 彩色標頭
       colors_heading: 顏色
       colors_text: "選擇兩種顏色作為論壇主色調。第一種作為突出顯示顏色，第二種作為背景元素樣式。"
+      custom_header_heading: 客製化標頭
+      custom_header_text: "新增要顯示在頁面頂部的，在 Flarum 自有標頭之上的 HTML。"
       custom_styles_heading: 客製化樣式
       custom_styles_text: 新增 LESS/CSS 程式碼以客製化論壇外觀，此設定將覆蓋 Flarum 預設樣式。
       dark_mode_label: 暗黑模式
       edit_css_button: 編輯客製化 CSS
+      edit_header_button: 編輯客製化標頭
       enter_hex_message: 請鍵入十六進制顏色代碼。
+      favicon_heading: 站點圖示
+      favicon_text: 上傳圖片做為論壇的站點圖示。
+      logo_heading: Logo
+      logo_text: 上傳圖片做為論壇標題。
       submit_button: => core.ref.save_changes
 
     # These translations are used in the Basics page.
@@ -69,11 +76,31 @@ core:
       submit_button: => core.ref.save_changes
       title: 新增群組
 
+    # These translations are used in the Edit Custom Header modal dialog.
+    edit_header:
+      customize_text: "新增要顯示在頁面頂部的，在 Flarum 自有標頭之上的 HTML。"
+      submit_button: => core.ref.save_changes
+      title: 編輯客製化標頭
+
+    # These translations are used in the email page of the admin interface.
+    email:
+      account_heading: SMTP 帳號
+      addresses_heading: 地址
+      driver_label: 驅動
+      encryption_label: 加密
+      from_label: 發信人
+      heading: => core.ref.email
+      host_label: 主機
+      password_label: => core.ref.password
+      port_label: 連接埠
+      server_heading: SMTP 伺服器
+      submit_button: => core.ref.save_changes
+      text: 配置 SMTP 設定及論壇發信地址。
+      username_label: => core.ref.username
+
     # These translations are used in the Extensions page.
     extensions:
       add_button: 新增延伸套件
-      disable_button: 禁用
-      enable_button: 啟用
       settings_button: => core.ref.settings
       uninstall_button: 移除
 
@@ -93,6 +120,8 @@ core:
       basics_text: "設定論壇名稱、語言以及其他基本設定"
       dashboard_button: 論壇概覽
       dashboard_text: 論壇資料綜覽
+      email_button: => core.ref.email
+      email_text: "配置論壇郵箱設定。"
       extensions_button: 延伸套件
       extensions_text: 為你的論壇新增額外功能
       permissions_button: 權限設定
@@ -117,6 +146,7 @@ core:
       sign_up_label: 註冊帳戶
       start_discussions_label: 新增貼文
       view_discussions_label: 查看貼文
+      view_post_ips_label: 查看 IP 地址
 
     # These translations are used in the dropdown menus on the Permissions page.
     permissions_controls:
@@ -133,13 +163,18 @@ core:
     settings:
       submit_button: => core.ref.save_changes
 
+    # These translations are used in image upload buttons.
+    upload_image:
+      remove_button: 移除
+      upload_button: 選擇圖片...
+
   # Translations in this namespace are used by the forum user interface.
   forum:
 
     # These translations are used in the Change Email modal dialog.
     change_email:
       confirmation_message: => core.ref.confirmation_email_sent
-      confirm_password_label: 再次鍵入密碼
+      confirm_password_placeholder: => core.ref.confirm_password
       dismiss_button: => core.ref.okay
       incorrect_password_message: 鍵入的密碼不正確。
       submit_button: => core.ref.save_changes
@@ -206,6 +241,7 @@ core:
       email_label: => core.ref.email
       password_label: => core.ref.password
       submit_button: => core.ref.save_changes
+      title: 編輯使用者
       username_label: => core.ref.username
 
     # These translations are used in the Forgot Password modal dialog.
@@ -265,6 +301,7 @@ core:
 
     # These translations are used by tooltips displayed for individual posts.
     post:
+      edited_text: 已編輯
       edited_tooltip: "{username} 編輯於 {ago}"
       number_tooltip: "發佈 #{number}"
 
@@ -284,7 +321,8 @@ core:
 
     # These translations are displayed between posts in the post stream.
     post_stream:
-      discussion_renamed_text: "{username} 將標題「{old}」更改為「{new}」"
+      discussion_renamed_old_tooltip: '舊標題是: 「{old}」'
+      discussion_renamed_text: "{username} 將標題更改為 「{new}」。"
       load_more_button: => core.ref.load_more
       reply_placeholder: => core.ref.write_a_reply
       time_lapsed_text: "{period}後"
@@ -300,6 +338,7 @@ core:
       account_heading: 帳戶
       change_email_button: => core.ref.change_email
       change_password_button: => core.ref.change_password
+      confirm_password: 確認密碼
       notifications_heading: => core.ref.notifications
       notify_by_email_heading: => core.ref.email
       notify_by_web_heading: 網頁
@@ -323,6 +362,7 @@ core:
     user:
       avatar_remove_button: 移除頭像
       avatar_upload_button: 上傳頭像
+      avatar_upload_tooltip: 上傳新頭像
       bio_placeholder: 介紹下自己
       discussions_link: => core.ref.discussions
       in_discussion_text: "於 {discussion}"
@@ -374,13 +414,31 @@ core:
       three_text: "{first}, {second} 以及 {third}"
       two_text: "{first} 及 {second}"
 
-  # Translations in this namespace are used in basic HTML interface.
-  basic:
-    javascript_disabled_message: 請使用現代瀏覽器並啟用 JavaScript 以獲取最佳瀏覽體驗。
-    load_error_message: 嘗試載入完整版本的論壇時出錯。
-    loading_text: 載入中...
-    next_page_button: 下一頁
-    previous_page_button: 上一頁
+  # Translations in this namespace are used in views other than Flarum's normal JS client.
+  views:
+
+    # Translations in this namespace are displayed by the basic HTML content loader.
+    content:
+      javascript_disabled_message: 請使用現代瀏覽器並啟用 JavaScript 以獲取最佳瀏覽體驗。
+      load_error_message: 嘗試載入完整版本的論壇時出錯。
+      loading_text: 載入中...
+
+    # Translations in this namespace are displayed in the basic HTML discussion view.
+    discussion:
+      next_page_button: => core.ref.next_page
+      previous_page_button: 上一頁
+
+    # Translations in this namespace are displayed by the basic HTML discussion index.
+    index:
+      all_discussions_heading: => core.ref.all_discussions
+      next_page_button: => core.ref.next_page
+
+    # Translations in this namespace are displayed by the Reset Password interface.
+    reset:
+      confirm_password_label: => core.ref.confirm_password
+      password_label: => core.ref.password
+      submit_button: 重設密碼
+      title: => core.ref.reset_your_password
 
   ##
   # REUSED STRINGS - These keys should not be used directly in code!
@@ -401,10 +459,12 @@ core:
     log_in: 登入
     log_out: 登出
     mark_all_as_read: 標記所有為已讀
+    next_page: 下一頁
     notifications: 通知
     okay: 好                                     # Referenced by flarum-tags.yml
     password: 密碼
     reply: 回覆                                 # Referenced by flarum-mentions.yml
+    reset_your_password: 重設密碼
     restore: 還原
     save_changes: 儲存更改                   # Referenced by flarum-tags.yml
     settings: 設定
@@ -448,7 +508,7 @@ core:
 
     # These translations are used in emails sent when users ask to reset their passwords.
     reset_password:
-      subject: 密碼重設
+      subject: => core.ref.reset_your_password
       body: |
         你好，{username}！
 
