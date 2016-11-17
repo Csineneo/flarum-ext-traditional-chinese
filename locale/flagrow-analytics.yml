@@ -1,0 +1,28 @@
+flagrow-analytics:
+
+  ##
+  # UNIQUE KEYS - The following keys are used in only one location each.
+  ##
+
+  # Strings in this namespace are used by the admin interface.
+  admin:
+    popup:
+      title: 統計設定
+
+      field:
+        googleTrackingCode: 跟蹤代碼 ID
+        piwikUrl: Piwik 連結
+        piwikSiteId: 站點 ID
+        piwikAliasUrl: 別名連結
+        piwikAuthToken: 驗證令牌 config->users
+
+      checkbox:
+        label:
+          piwikTrackSubdomain: 跟蹤所有 Flarum 子域的訪問者
+          piwikPrependDomain: 跟蹤時將網站域名新增到頁面標題
+          piwikHideAliasUrl: 在「外鏈」報告中，隱藏已知別名連結的點擊量
+
+    page:
+      nav:
+        title: 站點統計
+        description: 查看站點統計數據
