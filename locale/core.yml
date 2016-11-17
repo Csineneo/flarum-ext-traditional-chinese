@@ -95,7 +95,7 @@ core:
       port_label: 連接埠
       server_heading: SMTP 伺服器
       submit_button: => core.ref.save_changes
-      text: 配置 SMTP 設定及論壇發信地址。
+      text: 配置 SMTP 設定及論壇發信地址
       username_label: => core.ref.username
 
     # These translations are used in the Extensions page.
