@@ -1,21 +1,21 @@
 amaurycarrade-syndication:
   forum:
     autodiscovery:
-      forum_activity: "貼文及回覆"
-      forum_new_discussions: "最新貼文"
-      tag_activity: "節點 {tag} 貼文及回覆"
-      tag_new_discussions: "節點 {tag} 貼文"
-      discussion_last_posts: "本帖回覆"
+      forum_activity: "論壇貼文及回覆"
+      forum_new_discussions: "論壇最新貼文"
+      tag_activity: "{tag} 節點貼文及回覆"
+      tag_new_discussions: "{tag} 節點最新貼文"
+      discussion_last_posts: "本帖中的回覆"
     feeds:
       titles:
         main_title: "{forum_name}"
-        main_subtitle: "論壇貼文及回覆"
-        main_d_title: "{forum_name} 最新貼文"
+        main_subtitle: "論壇最新貼文及回覆"
+        main_d_title: "{forum_name} 貼文"
         main_d_subtitle: "論壇最新貼文"
-        tag_title: "節點「{tag}」貼文及回覆"
-        tag_subtitle: "節點「{tag}」貼文及回覆"
-        tag_d_title: "節點「{tag}」最新貼文"
-        tag_d_subtitle: "節點「{tag}」最新貼文"
+        tag_title: "{tag} 節點貼文及回覆"
+        tag_subtitle: "{tag}」節點貼文及回覆"
+        tag_d_title: "{tag} 節點最新貼文"
+        tag_d_subtitle: "{tag} 節點最新貼文"
         discussion_title: "{discussion_name}"
-        discussion_subtitle: "本帖中的最新回覆"
+        discussion_subtitle: "本帖中的回覆"
 

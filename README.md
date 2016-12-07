@@ -36,3 +36,4 @@ https://vivaldi.club
 	- flarum-suspend
 	- flarum-tags
 	- sijad-links
+	- sijad-pages
