@@ -1,0 +1,32 @@
+xengine-signature:
+    forum:
+        buttons:
+            signature: 簽名
+            save: 儲存簽名
+        modal:
+            loading:
+                title: 載入中...
+                content: 請等待...
+            error:
+                title: Oops！遇到了一些問題...
+                content: 錯誤列表：
+        errors:
+             max_char_limit_exceed: 超出最大字符數限制
+             max_image_width_exceed: 超出最大圖片寬度限制
+             max_image_height_exceed: 超出最大圖片高度限制
+             max_image_count_exceed: 超出最大圖片數限制
+    admin:
+        title: 簽名
+        settings:
+            maximum_image_width:
+                description: 最大圖片寬度
+                placeholder : 350（預設）
+            maximum_image_height:
+                description : 最大累計圖片高度
+                placeholder : 500（預設）
+            maximum_image_count:
+                description : 最大圖片數
+                placeholder : 5（預設）
+            maximum_char_limit:
+                description : 最大字符數（僅計算字符數量，不包含 HTML 標籤）
+                placeholder : 1000（預設）

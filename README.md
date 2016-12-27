@@ -15,6 +15,7 @@ https://vivaldi.club
 若有任何問題，請[在此](https://vivaldi.club/t/flarum)提出
 
 - ### 支援的延伸套件
+	- amaurycarrade-syndication
 	- datitisev-dashboard
 	- davis-securehttps
 	- flagrow-analytics
@@ -37,3 +38,4 @@ https://vivaldi.club
 	- flarum-tags
 	- sijad-links
 	- sijad-pages
+	- xengine-signature
