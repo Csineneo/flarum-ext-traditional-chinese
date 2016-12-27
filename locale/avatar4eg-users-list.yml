@@ -1,0 +1,25 @@
+avatar4eg-users-list:
+  admin:
+    nav:
+      users_button: => avatar4eg-users-list.ref.users_title
+      users_text: 查看會員列表
+    page:
+      about_text:  查看註冊會員列表View list of registered users.
+      online_text: => core.forum.user.online_text
+      load_more_button: => core.ref.load_more
+      list_title: => avatar4eg-users-list.ref.users_title
+      mail_all_button: 給所有會員發信
+    modal_mail:
+      title_text: 發信給
+      title_all_text: 所有會員
+      email_label: 收件人
+      subject_label: 主題
+      default_subject: => avatar4eg-users-list.ref.default_subject
+      message_label: 正文
+      submit_button: 送出
+
+  email:
+    default_subject: => avatar4eg-users-list.ref.default_subject
+
+  ref:
+    default_subject: 來自論壇管理員的信件
