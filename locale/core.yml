@@ -420,7 +420,7 @@ core:
     # Translations in this namespace are displayed by the basic HTML content loader.
     content:
       javascript_disabled_message: 請使用現代瀏覽器並啟用 JavaScript 以獲取最佳瀏覽體驗。
-      load_error_message: 嘗試載入完整版本的論壇時出錯。
+      load_error_message: 嘗試載入完整版本的論壇時出錯，請清空瀏覽器快取後再試。
       loading_text: 載入中...
 
     # Translations in this namespace are displayed in the basic HTML discussion view.

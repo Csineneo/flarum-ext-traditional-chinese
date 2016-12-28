@@ -4,7 +4,7 @@ avatar4eg-users-list:
       users_button: => avatar4eg-users-list.ref.users_title
       users_text: 查看會員列表
     page:
-      about_text:  查看註冊會員列表View list of registered users.
+      about_text:  查看註冊會員列表
       online_text: => core.forum.user.online_text
       load_more_button: => core.ref.load_more
       list_title: => avatar4eg-users-list.ref.users_title

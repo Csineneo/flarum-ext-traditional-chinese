@@ -28,6 +28,7 @@ https://vivaldi.club
 	- flarum-auth-facebook
 	- flarum-auth-github
 	- flarum-auth-twitter
+	- flarum-best-answer
 	- flarum-flags
 	- flarum-likes
 	- flarum-lock
