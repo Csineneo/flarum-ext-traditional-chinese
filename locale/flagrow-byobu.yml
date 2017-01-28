@@ -1,0 +1,28 @@
+flagrow-byobu:
+  forum:
+    badges:
+      is_private:
+        tooltip: 私密群組
+    buttons:
+      add_recipients: 收信人
+      submit: 好
+      edit_recipients: 編輯收信人
+    labels:
+      user_deleted: --已刪除--
+    nav:
+      private_discussions: 私密群組
+    input:
+      search_recipients: 輸入名字前 1-3 個字符
+    modal:
+      titles:
+        update_recipients: 更新群組「{title}」的收信人
+        add_recipients: 新增收信人到群組
+    post:
+      recipients_modified:
+        added_and_removed: "{username} 新增收信人「{added}」並移除「{removed}」"
+        added: "{username} 新增收信人「{added}」"
+        removed: "{username} 移除收信人「{removed}」"
+  admin:
+    permission:
+      create_private_discussions: 創建私密群組
+      edit_recipients: 編輯私密群組收信人

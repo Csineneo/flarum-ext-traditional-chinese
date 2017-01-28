@@ -21,6 +21,7 @@ https://vivaldi.club
 	- datitisev-dashboard
 	- davis-securehttps
 	- flagrow-analytics
+  - flagrow-byobu
 	- flagrow-guardian
 	- flagrow-image-upload
 	- flagrow-upload
