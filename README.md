@@ -22,7 +22,7 @@ https://vivaldi.club
 	- davis-securehttps
 	- flagrow-ads
 	- flagrow-analytics
-  - flagrow-byobu
+	- flagrow-byobu
 	- flagrow-guardian
 	- flagrow-image-upload
 	- flagrow-upload
