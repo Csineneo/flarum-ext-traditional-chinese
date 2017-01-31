@@ -20,6 +20,7 @@ https://vivaldi.club
 	- avatar4eg-users-list
 	- datitisev-dashboard
 	- davis-securehttps
+  - flagrow-ads
 	- flagrow-analytics
   - flagrow-byobu
 	- flagrow-guardian

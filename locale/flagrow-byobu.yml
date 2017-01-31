@@ -12,7 +12,7 @@ flagrow-byobu:
     nav:
       private_discussions: 私密群組
     input:
-      search_recipients: 輸入名字前 1-3 個字符
+      search_recipients: 輸入收信人 ID 前三個字符進行匹配
     modal:
       titles:
         update_recipients: 更新群組「{title}」的收信人

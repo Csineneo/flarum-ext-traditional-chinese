@@ -1,0 +1,18 @@
+flagrow-ads:
+    admin:
+        buttons:
+            save: 儲存設定
+        positions:
+            under-header:
+                title: 頂部導航標題下的廣告位
+                placeholder: 於此處填入廣告程式碼
+            between-posts:
+                title: 貼文間的廣告位
+                placeholder: => flagrow-ads.admin.positions.under-header.placeholder
+            under-nav-items:
+                title: 首頁左側節點列表下的廣告位
+                placeholder: => flagrow-ads.admin.positions.under-header.placeholder
+        settings:
+            between-n-posts: 指定放置廣告的貼文數
+        tab:
+            description: 廣告位置及偏好設定
