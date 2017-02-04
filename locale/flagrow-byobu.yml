@@ -16,7 +16,7 @@ flagrow-byobu:
       search_recipients: 輸入 ID 前三個字符進行搜尋
     search:
       headings:
-        groups: 權限組
+        groups: 使用者群組
     modal:
       titles:
         update_recipients: 更新私密貼文「{title}」的參與者
