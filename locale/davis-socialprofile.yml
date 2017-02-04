@@ -1,0 +1,13 @@
+davis-socialprofile:
+  forum:
+    edit:
+      edit: "編輯"
+      add: "新增"
+      headtitle: "編輯按鈕"
+      title: "標題"
+      url: "URL"
+      submit: "儲存"
+      delete: "移除"
+      deletetitle: "移除按鈕"
+  admin:
+    test: "測試"
