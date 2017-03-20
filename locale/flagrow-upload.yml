@@ -21,7 +21,7 @@ flagrow-upload:
             preferences:
                 title: 偏好設定
                 max_file_size: 最大檔案大小 (單位 KB)
-                mime_types: 設定 MIME 類型以及上傳方式
+                mime_types: 設定 MIME 類型以及上傳接口
             resize:
                 title: 圖片縮放
                 toggle: 縮放圖片
@@ -56,8 +56,8 @@ flagrow-upload:
         help_texts:
             description: >
                 配置上傳服務及偏好設定
-            upload_method: >
-                您可以在這裏選擇檔案上傳方式。當您選擇其中一種時，對應設定項將會出現
+            mime_types: >
+                請於此設定對映。每一個 MIME 類型的正規表示式都將由指定的上傳接口處理
             resize: >
                 您可以選擇是否在上傳圖片前調整圖片大小，您也可以設定圖片最大長寬（px），圖片大小調整將會保持圖片長寬比例
             watermark: >
