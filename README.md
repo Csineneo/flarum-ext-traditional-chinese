@@ -27,6 +27,7 @@ https://vivaldi.club
   - flagrow-byobu
   - flagrow-guardian
   - flagrow-image-upload
+  - flagrow-passport
   - flagrow-split
   - flagrow-upload
   - flarum-akismet
@@ -44,9 +45,14 @@ https://vivaldi.club
   - flarum-subscriptions
   - flarum-suspend
   - flarum-tags
+  - issyrocks12-filter
+  - johnhearfield-oauth-google
   - sijad-auth-steam
   - sijad-google-analytics
   - sijad-links
   - sijad-pages
   - sijad-recaptcha
+  - wiseclock-login2see
+  - wiseclock-reply2see
+  - wuethrich44-sso
   - xengine-signature

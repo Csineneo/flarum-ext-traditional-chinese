@@ -1,0 +1,6 @@
+# https://github.com/WiseClock/flarum-ext-reply2see/blob/master/locale/en.yml
+
+wiseclock-reply2see:
+  forum:
+    hidden_content: 隱藏內容
+    reply_to_see: "{reply}並重新整理後可見"

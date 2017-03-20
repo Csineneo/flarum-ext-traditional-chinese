@@ -1,0 +1,24 @@
+# https://github.com/WiseClock/flarum-ext-login2see/blob/master/locale/en.yml
+
+wiseclock-login2see:
+  forum:
+    post: "{login}或{register}後可檢視全文"
+    link: 登入後可見
+    image: 登入後可見
+  admin:
+    title: Login2See
+    post:
+      title: 隱藏超出此長度的內容
+      help: <em>-1</em> 表示顯示全文
+    link:
+      title: 連結
+      no_replace: 不替換
+      replace_address: 僅隱藏連結
+      replace_all: 隱藏連結並替換文字
+    image:
+      title: 圖片
+      label: 替換為佔位圖片
+    php:
+      title: 傳統模式
+      help: "*不推薦* 在伺服器端進行處理以支援老舊瀏覽器。你必須啟用 PHP <code>mb_substr</code> 及 <code>mb_strlen</code> 功能"
+      label: 使用 PHP
