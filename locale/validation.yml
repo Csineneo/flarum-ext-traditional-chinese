@@ -1,3 +1,5 @@
+# https://github.com/flarum/flarum-ext-english/blob/master/locale/validation.yml
+
 validation:
   accepted: ":attribute 必須接受"
   active_url: ":attribute 不是有效的 URL"

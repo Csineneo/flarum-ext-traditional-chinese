@@ -1,0 +1,25 @@
+# https://github.com/flagrow/bazaar/blob/master/locale/en.yml
+
+flagrow-bazaar:
+    admin:
+        loader:
+            is_loading: 正在載入...
+        popup:
+            title: Flagrow Bazaar
+            field:
+                apiToken: API token
+                apiTokenDescription: 這個 api token 是存取 Flagrow 擴充套件所必須的。如果已經設定，請繼續。
+        nav:
+            title: Bazaar
+            description: 擴充套件市場
+        page:
+            button:
+                more: 更多
+                install: 安裝
+                uninstall: 移除
+                enable: 啟用
+                disable: 停用
+            extension:
+                installed: 擴充套件已安裝
+                enabled: 擴充套件已啟用
+                vendor: 由 {vendor} 開發

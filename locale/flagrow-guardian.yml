@@ -1,3 +1,5 @@
+# https://github.com/flagrow/flarum-ext-guardian/blob/master/locale/en.yml
+
 hyn-guardian:
   package_name: "Guardian"
   package_description: "查看用戶資料"

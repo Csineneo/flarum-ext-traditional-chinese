@@ -1,6 +1,6 @@
-# https://github.com/flarum/flarum-ext-english/blob/master/locale/flarum-auth-twitter.yml
+# https://github.com/sijad/flarum-ext-auth-steam/blob/master/locale/en.yml
 
-flarum-auth-twitter:
+sijad-auth-steam:
 
   ##
   # UNIQUE KEYS - The following keys are used in only one location each.
@@ -9,15 +9,15 @@ flarum-auth-twitter:
   # Translations in this namespace are used by the admin interface.
   admin:
 
-    # These translations are used in the Twitter Settings modal dialog.
-    twitter_settings:
+    # These translations are used in the Steam Settings modal dialog.
+    steam_settings:
       api_key_label: API Key
       api_secret_label: API Secret
-      title: Twitter 設定
+      title: Steam 設定
 
   # Translations in this namespace are used by the forum user interface.
   forum:
 
     # These translations are used in the Log In modal dialog.
     log_in:
-      with_twitter_button: 使用 Twitter 帳號登入
+      with_steam_button: 以 Steam 帳號登入

@@ -1,3 +1,5 @@
+# https://github.com/flagrow/upload/blob/master/locale/en.yml
+
 flagrow-upload:
     forum:
         buttons:
@@ -19,7 +21,7 @@ flagrow-upload:
             preferences:
                 title: 偏好設定
                 max_file_size: 最大檔案大小 (單位 KB)
-                mime_types_allowed: 使用正規表示式指定允許上傳的 mime 類型
+                mime_types: 設定 MIME 類型以及上傳方式
             resize:
                 title: 圖片縮放
                 toggle: 縮放圖片
@@ -48,6 +50,7 @@ flagrow-upload:
                 tenantid: Tenant ID
                 username: 使用者名稱
                 password: 密碼
+                region: 區域
         buttons:
             save: 儲存更改
         help_texts:
