@@ -47,6 +47,7 @@ https://vivaldi.club
   - flarum-suspend
   - flarum-tags
   - issyrocks12-filter
+  - issyrocks12-twofactor
   - johnhearfield-oauth-google
   - sijad-auth-steam
   - sijad-google-analytics

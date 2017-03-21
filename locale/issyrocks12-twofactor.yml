@@ -1,0 +1,24 @@
+# https://github.com/issyrocks12/flarum-ext-twofactor/blob/master/locale/en.yml
+
+issyrocks12-twofactor:
+  forum:
+    accountlabel: 雙重驗證
+    reloadmsg: 正在準備雙重驗證... 請重新開啟雙重驗證視窗
+    incorrect_2fa: 無效的動態密碼
+    2fa_disabled: 雙重驗證已停用
+    2fa_enabled: 雙重驗證已啟用
+    remember_me_label: 記住我
+    modal:
+      twofactor_title: 雙重驗證設定
+      heading: 雙重驗證設定
+      switch: 雙重驗證
+      QRheading: 雙重驗證二維條碼
+      help: 掃描 QR 碼，或者手動新增編碼至 Google Authenticator 或其他 TOTP 應用程式。
+      placeholder: 動態密碼
+      button: 送出
+      2fa_help: 輸入來自 TOTP 應用程式的動態密碼
+      close: 我已儲存我的條碼
+      recov: 復原條碼
+      login_title: 雙重驗證
+      recov_help1: 請儲存這些編碼！
+      recov_help2: 這是在沒有 TOTP 應用程式存取權限時存取帳戶的唯一方式。這些編碼將不再顯示。
