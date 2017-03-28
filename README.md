@@ -41,6 +41,7 @@ https://vivaldi.club
   - flarum-likes
   - flarum-lock
   - flarum-mentions
+  - flarum-notify 
   - flarum-pusher
   - flarum-sticky
   - flarum-subscriptions
