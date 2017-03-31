@@ -20,4 +20,4 @@ flarum-auth-facebook:
 
     # These translations are used in the Log In modal dialog.
     log_in:
-      with_facebook_button: 使用臉書帳號登入
+      with_facebook_button: 透過臉書帳號登入

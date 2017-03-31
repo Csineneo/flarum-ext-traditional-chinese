@@ -50,6 +50,7 @@ https://vivaldi.club
   - issyrocks12-filter
   - issyrocks12-twofactor
   - johnhearfield-oauth-google
+  - pnobbe-oauth-discord
   - sijad-auth-steam
   - sijad-google-analytics
   - sijad-links
