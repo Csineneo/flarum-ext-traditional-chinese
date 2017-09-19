@@ -1,0 +1,67 @@
+core:
+  forum:
+    index_sort:
+      hot_button: 趨勢
+      
+reflar-gamification:
+  forum:
+    vote_title: 顯示投票人
+    nav:
+      name: 排名
+    ranking:
+      rank: 排位
+      name: 用戶
+      amount: 點數
+    notification:
+      upvote: "{username} 頂了您的帖文"
+      downvote: "{username} 踩了您的帖文"
+    user:
+      points: "點數: {points}"
+      rank: "{rank}"
+    modal:
+      title: 打分
+      upvotes_label: 頂
+      downvotes_label: 踩
+  admin:
+    permissions:
+      vote_label: 頂/踩帖文
+      see_votes_label: 查看帖文頂/踩
+      see_ranking_page: 查看等級頁面
+    nav:
+      desc: 增強 Flarum 論壇遊戲性
+    page:
+      rankings:
+        blocked:
+          placeholder: CDK2020, Ralkage, AngelAvila
+          title: 忽略的用戶
+          help: 這些用戶不會在排名頁面上顯示。 用戶名應以逗號分隔，後跟空格。
+        title: 排名頁面
+        enable: 啟用自定義圖片
+        custom_image_1: 冠軍圖片
+        custom_image_2: 亞軍圖片
+        custom_image_3: 季軍圖片
+      votes:
+        points_title: 點數佔位符
+        points_placeholder: "點數: "
+        color_holder: '#ffffff'
+        auto_upvote: 當帖文發佈時自動頂帖
+        title: 頂
+        vote_color: 頂貼顏色
+        icon_name: 頂/踩小圖示
+        icon_help: "輸入任何 Font-Awesome 圖標，後綴為 -up 和 -down。 示例：箭頭，拇指，人字紋"
+      save_settings: 儲存設定
+      convert:
+        button: 轉換「喜歡」為「頂」
+        help: 將 flarum-ext-like 產生的「喜歡」轉換成「頂」，並計算所有當前討論的熱度
+        converting: 您的喜好正在被轉換，稍後幾分鐘刷新頁面查看轉換結果。（轉換可能需要一段時間，具體取決於您的論壇）
+        converted: "成功轉換 {number} 個喜歡"
+      ranks:
+        title: 等級
+        ranks: 自定義評分
+        number_title: 要顯示多少個徽章？
+        help:
+          color: '#ffffff'
+          help: "輸入所需數量的頂，級別名稱，以及等級顏色Input the required number of upvotes, the name of the rank, and the hex color of the rank"
+          points: 點數
+          name: 名稱
+

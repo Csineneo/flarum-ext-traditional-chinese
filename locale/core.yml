@@ -259,6 +259,7 @@ core:
     # These translations are used in the header and session dropdown menu.
     header:
       admin_button: 管理後台
+      back_to_index_tooltip: 返回帖文列表
       log_in_link: => core.ref.log_in
       log_out_button: => core.ref.log_out
       profile_button: 基本資料

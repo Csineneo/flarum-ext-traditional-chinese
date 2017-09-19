@@ -1,0 +1,19 @@
+krombox-auth-wordpress:
+    forum:
+        log_in:
+            with_wordpress_button: 以 Wordpress 賬號登入
+    admin:
+        wordpress_settings:
+            title: Wordpress 設定
+            field:
+                # app-auth-url: OAuth authorization url
+                # app-token-url: OAuth token url
+                # app-user-url: Api URL providing user details when authenticated
+                client-id: 用戶端 ID
+                client-secret: 用戶端 Secret
+                domain: Wordpress 域名   
+                # app-scopes: OAuth scopes to request
+                login-button-title: 登入按鈕文本
+                login-button-color: 登入按鈕前景色
+                login-button-bg-color: 登入按鈕背景色
+
