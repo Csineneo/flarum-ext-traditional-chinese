@@ -55,6 +55,7 @@ https://vivaldi.club
   - krombox-auth-wordpress
   - pnobbe-oauth-discord
   - reflar-gamification
+  - reflar-usermanagement
   - sijad-auth-steam
   - sijad-google-analytics
   - sijad-links
