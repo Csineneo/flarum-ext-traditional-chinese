@@ -1,0 +1,5 @@
+flarum-discussion-views:
+  forum:
+    index_sort:
+      popular_button: 熱門
+      unpopular_button: 冷門
