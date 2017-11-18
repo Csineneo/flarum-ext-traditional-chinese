@@ -1,6 +1,6 @@
 reflar-usermanagement:
   admin:
-    strike_perm_item: Serve Strikes
+    strike_perm_item: 警告
     activate_perm_item: 手動激活用戶
     viewstrike_perm_item: 查看用戶警告
     nav:
@@ -32,7 +32,7 @@ reflar-usermanagement:
       about_text: "您的用戶一目了然。點擊眼睛查看用戶的個人資料。點擊'！' 查看用戶的黑歷史"
   forum:
     post_controls:
-      strike_button: Serve Strike
+      strike_button: 警告
     signup:
       age: 年齡
       gender: 性別
