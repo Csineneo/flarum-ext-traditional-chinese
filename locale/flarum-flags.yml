@@ -45,7 +45,7 @@ flarum-flags:
 
     # These translations are used by the frame displayed around flagged posts.
     post:
-      dismiss_flag_button: 取消舉報
+      dismiss_flag_button: 撤銷舉報
       flagged_by_text: "已被 {username} 舉報"
       flagged_by_with_reason_text: "因 {reason} 被 {username} 舉報"
 

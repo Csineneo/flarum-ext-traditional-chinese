@@ -14,6 +14,7 @@ core:
       developer_text: "如果你是開發者，你可以<a>閱讀文檔</a>並自行開發延伸套件。"
       install_text: "在此期間你可以造訪<a>Flarum 社群</a>搜尋延伸套件，並通過 Composer 手動安裝。"
       temporary_text: "終有一天，在不遠的將來，此對話框將讓你輕鬆地新增延伸套件。如我們所說，我們將建立一套生態系統！"
+      title: 新增延伸套件
 
     # These translations are used in the Appearance page.
     appearance:
@@ -44,6 +45,7 @@ core:
       home_page_heading: 論壇首頁
       home_page_text: "選擇一個頁面作為論壇首頁，若要客製化，請使用論壇根目錄對相對路徑。"
       saved_message: 更改已儲存
+      show_language_selector_label: 顯示語言選擇選單
       submit_button: => core.ref.save_changes
       welcome_banner_heading: 歡迎橫幅
       welcome_banner_text: 橫幅文字將顯示於「全部貼文」頁面頂部，用以歡迎新到訪的遊客。
@@ -149,6 +151,7 @@ core:
       start_discussions_label: 新增貼文
       view_discussions_label: 查看貼文
       view_post_ips_label: 查看 IP 地址
+      view_user_list_label: 查看使用者列表
 
     # These translations are used in the dropdown menus on the Permissions page.
     permissions_controls:
@@ -177,6 +180,7 @@ core:
     change_email:
       confirmation_message: => core.ref.confirmation_email_sent
       confirm_password_placeholder: => core.ref.confirm_password
+      remember_me_label: 記住我
       dismiss_button: => core.ref.okay
       incorrect_password_message: 鍵入的密碼不正確。
       submit_button: => core.ref.save_changes
@@ -225,8 +229,7 @@ core:
       delete_confirmation: "確定是否刪除此貼文？"
       delete_forever_button: => core.ref.delete_forever
       log_in_to_reply_button: 登入以回覆
-      rename_button: 更改標題
-      rename_text: "鍵入新標題："
+      rename_button: => core.ref.rename
       reply_button: => core.ref.reply
       restore_button: => core.ref.restore
 
@@ -240,10 +243,16 @@ core:
 
     # These translations are used in the Edit User modal dialog (admin function).
     edit_user:
+      activate_button: 激活使用者
+      email_heading: => core.ref.email
       email_label: => core.ref.email
+      groups_heading: 群組
+      password_heading: => core.ref.password
       password_label: => core.ref.password
+      set_password_label: 設定新密碼
       submit_button: => core.ref.save_changes
       title: 編輯使用者
+      username_heading: => core.ref.username
       username_label: => core.ref.username
 
     # These translations are used in the Forgot Password modal dialog.
@@ -329,6 +338,11 @@ core:
       load_more_button: => core.ref.load_more
       reply_placeholder: => core.ref.write_a_reply
       time_lapsed_text: "{period}後"
+
+    # These translations are used by the rename discussion modal.
+    rename_discussion:
+      title: 更改帖文標題
+      submit_button: => core.ref.rename
 
     # These translations are used by the search results dropdown list.
     search:
@@ -443,6 +457,10 @@ core:
       submit_button: 重設密碼
       title: => core.ref.reset_your_password
 
+  # Translations in this namespace are used in messages output by the API.
+  api:
+    invalid_username_message: "使用者名稱僅能包含字母、數字及橫線"
+
   ##
   # REUSED STRINGS - These keys should not be used directly in code!
   ##
@@ -466,6 +484,7 @@ core:
     notifications: 通知
     okay: 好                                     # Referenced by flarum-tags.yml
     password: 密碼
+    rename: 重命名
     reply: 回覆                                 # Referenced by flarum-mentions.yml
     reset_your_password: 重設密碼
     restore: 還原
