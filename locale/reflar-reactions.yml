@@ -1,4 +1,4 @@
-reactionreflar-reactions:
+reflar-reactions:
   forum:
     warning: 你的回應將被覆蓋
     notification: '{username} 使用{reaction}回應了你的帖文'
