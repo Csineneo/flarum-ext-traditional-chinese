@@ -1,0 +1,7 @@
+antoinefr-online:
+  forum:
+    title: 線上會員
+  admin:
+    settings:
+      title: 設定
+      displaymax: 最多顯示多少人？

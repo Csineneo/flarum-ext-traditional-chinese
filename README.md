@@ -32,6 +32,7 @@ https://vivaldi.club
   - flagrow-masquerade
   - flagrow-passport
   - flagrow-split
+  - flagrow-telegram
   - flagrow-upload
   - flarum-akismet
   - flarum-approval
