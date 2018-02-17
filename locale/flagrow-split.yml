@@ -1,6 +1,10 @@
 # https://github.com/flagrow/split/blob/master/locale/en.yml
 
 flagrow-split:
+    admin:
+      permissions:
+        split_discussion_label: 拆分貼文
+
     forum:
         post:
             was_split_to: "{count} 個回覆被分割至 {target}"

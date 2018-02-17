@@ -1,3 +1,5 @@
+# https://gitlab.com/ReDevelopers/ReFlar/user-management/blob/master/locale/en.yml
+
 reflar-usermanagement:
   admin:
     strike_perm_item: 警告
@@ -23,6 +25,7 @@ reflar-usermanagement:
       age_label: 啟用年齡註冊信息
       amount_label: 每頁顯示的用戶數
       recaptcha: 啟用 recaptcha 兼容
+      spam: 啟用 StopForumSpam 保護
     page: 
       activate: 激活
       online_text: 在線上

@@ -15,6 +15,7 @@ flagrow-ads:
                 title: 首頁左側節點列表下的廣告位
                 placeholder: => flagrow-ads.admin.positions.under-header.placeholder
         settings:
+            start-from-post: 指定從第幾個貼文開始顯示廣告
             between-n-posts: 指定放置廣告的貼文數
         tab:
             description: 廣告位置及偏好設定

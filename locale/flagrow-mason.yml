@@ -1,3 +1,5 @@
+# https://github.com/flagrow/mason/blob/master/resources/locale/en.yml
+#
 flagrow-mason:
     forum:
         discussion-controls:
@@ -46,13 +48,13 @@ flagrow-mason:
             validation: 校驗用戶輸入
             user_values_allowed: 允許用戶輸入的內容
             user_values_allowed-help: >
-                If enabled, users can add their own values instead of the ones defined by the admin.
-                These values will be checked against the "Validation" setting.
-                If disabled they will only be able to use "suggested" answers.
+                如果啟用，用戶可以添加自己的值而不是管理員定義的值。
+                這些值將根據「校驗」設置進行檢查。
+                如果禁用，他們只能使用「建議」的答案。
             validation-help: >
                 查看支援的 <a>Laravel validation rules</a>，例如:
                 "string|min:5" 或 "url".
-            enable-user-values-for-validation: Enable "user values" to configure validation rules
+            enable-user-values-for-validation: 啟用「用戶輸入」來配置校驗規則
             icon: 小圖示
             icon-help: >
                 在這個欄位前顯示小圖示。可用的小圖示請查看 <a>FontAwesome 網站</a>，無需「fa-」前綴

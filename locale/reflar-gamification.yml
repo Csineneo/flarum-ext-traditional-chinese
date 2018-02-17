@@ -1,3 +1,5 @@
+# https://gitlab.com/ReDevelopers/ReFlar/gamification/blob/master/locale/en.yml
+
 core:
   forum:
     index_sort:
@@ -61,7 +63,6 @@ reflar-gamification:
         number_title: 要顯示多少個徽章？
         help:
           color: '#ffffff'
-          help: "輸入所需數量的頂，級別名稱，以及等級顏色Input the required number of upvotes, the name of the rank, and the hex color of the rank"
+          help: "輸入所需數量的頂，級別名稱，以及等級顏色"
           points: 點數
           name: 名稱
-

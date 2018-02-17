@@ -16,6 +16,5 @@ sijad-recaptcha:
         title: reCAPTCHA 設定
 
 # Translations in this namespace are used in validation
-validation:
-    recaptcha: 'reCAPTCHA 驗證失敗，請重試。'
-
+  validation:
+      recaptcha: 'reCAPTCHA 驗證失敗，請重試。'
