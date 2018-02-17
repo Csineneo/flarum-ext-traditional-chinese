@@ -27,7 +27,6 @@ https://vivaldi.club
   - flagrow-bazaar
   - flagrow-byobu
   - flagrow-guardian
-  - flagrow-image-upload
   - flagrow-mason
   - flagrow-masquerade
   - flagrow-passport
@@ -60,7 +59,6 @@ https://vivaldi.club
   - reflar-reactions
   - reflar-usermanagement
   - sijad-auth-steam
-  - sijad-google-analytics
   - sijad-links
   - sijad-pages
   - sijad-recaptcha
