@@ -19,6 +19,7 @@ https://vivaldi.club
   - antoinefr-money
   - avatar4eg-transliterator
   - avatar4eg-users-list
+  - cookie-consent.yml
   - datitisev-dashboard
   - davis-securehttps
   - davis-socialprofile

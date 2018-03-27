@@ -13,12 +13,12 @@ reflar-gamification:
     ranking:
       rank: 排位
       name: 用戶
-      amount: 點數
+      amount: 👍
     notification:
       upvote: "{username} 頂了您的帖文"
       downvote: "{username} 踩了您的帖文"
     user:
-      points: "點數: {points}"
+      points: "👍: {points}"
       rank: "{rank}"
     modal:
       title: 打分
@@ -43,8 +43,8 @@ reflar-gamification:
         custom_image_2: 亞軍圖片
         custom_image_3: 季軍圖片
       votes:
-        points_title: 點數佔位符
-        points_placeholder: "點數: "
+        points_title: 佔位符
+        points_placeholder: "👍: "
         color_holder: '#ffffff'
         auto_upvote: 當帖文發佈時自動頂帖
         title: 頂
@@ -64,5 +64,5 @@ reflar-gamification:
         help:
           color: '#ffffff'
           help: "輸入所需數量的頂，級別名稱，以及等級顏色"
-          points: 點數
+          points: 👍
           name: 名稱
