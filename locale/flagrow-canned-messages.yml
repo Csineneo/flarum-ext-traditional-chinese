@@ -1,0 +1,29 @@
+flagrow-canned-messages:
+    admin:
+        buttons:
+            add-message: 新增訊息
+            save-message: 儲存訊息
+            delete-message: 刪除訊息
+            configure-messages: 點此設定訊息
+            configure-advanced: 進階設定
+        menu:
+            title: 罐頭訊息
+            description: >
+                自訂 bbcode 罐頭訊息
+        strings:
+            key: BBcode
+            locale: 語言
+            style: 樣式
+            content: 內容
+        locales:
+            all: 全部
+        settings:
+            title: 罐頭訊息設定
+            bbtag: 自訂 BBcode 標籤
+            bbtag-help: >
+                在此可以更高用於罐頭訊息的 bbcode。更改此設定將導致已存在的罐頭訊息無法顯示。
+                您僅可以使用大寫英文字母「A-Z」及短劃線「-」和「_」。
+                不要忘記在更改設定後清空快取。
+    forum:
+        bbcode:
+            invalid-key: 這裡有一條訊息，但是內容已經被刪除或者在當前語言環境下不可用

@@ -17,9 +17,11 @@ https://vivaldi.club
 - ### 支援的延伸套件
   - amaurycarrade-syndication
   - antoinefr-money
+  - antoinefr-online
   - avatar4eg-transliterator
   - avatar4eg-users-list
-  - cookie-consent.yml
+  - config.js
+  - cookie-consent
   - datitisev-dashboard
   - davis-securehttps
   - davis-socialprofile
@@ -27,7 +29,9 @@ https://vivaldi.club
   - flagrow-analytics
   - flagrow-bazaar
   - flagrow-byobu
+  - flagrow-canned-messages
   - flagrow-guardian
+  - flagrow-impersonate
   - flagrow-mason
   - flagrow-masquerade
   - flagrow-passport
@@ -63,6 +67,7 @@ https://vivaldi.club
   - sijad-links
   - sijad-pages
   - sijad-recaptcha
+  - validation
   - wiseclock-login2see
   - wiseclock-reply2see
   - wuethrich44-sso
