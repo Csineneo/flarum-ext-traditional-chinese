@@ -1,0 +1,22 @@
+flagrow-user-directory:
+    forum:
+        search:
+            users_heading: '在全部會員中搜尋「{query}」'
+        page:
+            nav: 會員目錄
+            sort:
+                relevance: 相關度
+                default: 預設
+                username_az: 會員名 (a-z)
+                username_za: 會員名 (z-a)
+                newest: 最新
+                oldest: 最早
+                seen_recent: 最新上線
+                seen_oldest: 長期未登陸
+                most_posts: 最多回覆
+                least_posts: 最少回覆
+                most_discussions: 最多貼文
+                least_discussions: 最少貼文
+    admin:
+        permissions:
+            view_user_directory: 查看會員目錄
