@@ -30,6 +30,7 @@ https://vivaldi.club
   - flagrow-bazaar
   - flagrow-byobu
   - flagrow-canned-messages
+  - flagrow-fonts
   - flagrow-guardian
   - flagrow-impersonate
   - flagrow-mason
