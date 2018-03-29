@@ -20,7 +20,6 @@ https://vivaldi.club
   - antoinefr-online
   - avatar4eg-transliterator
   - avatar4eg-users-list
-  - config.js
   - cookie-consent
   - datitisev-dashboard
   - davis-securehttps
@@ -33,12 +32,17 @@ https://vivaldi.club
   - flagrow-fonts
   - flagrow-guardian
   - flagrow-impersonate
+  - flagrow-linguist
   - flagrow-mason
   - flagrow-masquerade
   - flagrow-passport
   - flagrow-split
+  - flagrow-subscribed
   - flagrow-telegram
+  - flagrow-twitch
   - flagrow-upload
+  - flagrow-user-directory
+  - flagrow-utility-tag-inject
   - flarum-akismet
   - flarum-approval
   - flarum-auth-facebook
@@ -68,7 +72,6 @@ https://vivaldi.club
   - sijad-links
   - sijad-pages
   - sijad-recaptcha
-  - validation
   - wiseclock-login2see
   - wiseclock-reply2see
   - wuethrich44-sso
