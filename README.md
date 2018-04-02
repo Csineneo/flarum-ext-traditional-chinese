@@ -21,6 +21,7 @@ https://vivaldi.club
   - avatar4eg-transliterator
   - avatar4eg-users-list
   - cookie-consent
+  - clarkwinkelmann-high-contrast
   - datitisev-dashboard
   - davis-securehttps
   - davis-socialprofile

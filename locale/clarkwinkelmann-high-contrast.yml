@@ -1,0 +1,8 @@
+clarkwinkelmann-high-contrast:
+    forum:
+        settings:
+            section:
+                title: 僅適用於高階使用者
+
+            high-contrast:
+                label: 啟用高對比度模式
