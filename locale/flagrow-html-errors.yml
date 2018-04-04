@@ -1,7 +1,7 @@
 flagrow-html-errors:
   admin:
     settings:
-      title: 客製化錯誤頁面
+      title: 客製化 HTML 錯誤頁面
 
       error:
         403: 403 禁止存取
