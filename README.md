@@ -32,6 +32,7 @@ https://vivaldi.club
   - flagrow-canned-messages
   - flagrow-fonts
   - flagrow-guardian
+  - flagrow-html-errors
   - flagrow-impersonate
   - flagrow-linguist
   - flagrow-mason

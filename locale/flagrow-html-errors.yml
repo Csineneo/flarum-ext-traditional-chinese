@@ -1,0 +1,14 @@
+flagrow-html-errors:
+  admin:
+    settings:
+      title: 客製化錯誤頁面
+
+      error:
+        403: 403 禁止存取
+        404: 404 頁面未找到
+        500: 500 伺服器錯誤
+        503: 503 服務不可用（下線維護）
+
+      placeholder:
+        empty_for_default: 留空以使用 Flarum 預設錯誤頁面
+
