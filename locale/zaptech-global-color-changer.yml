@@ -1,0 +1,13 @@
+global-colorchanger:
+  admin:
+    settings:
+      title: 全域顏色變換器
+      homepage: 首頁上的元素
+      headerhex: 用於頭部元素的色值
+      herohex: 用於 Hero 元素的色值
+      apphex: 主要顏色
+      adminpage: 管理後台中的元素
+      adminnavhex: 用於管理後台導航選單的色值
+      adminpagehex: 用於管理後台頁面的色值
+      help: 請在上面的每個框中選擇一種顏色。 這些顏色將定義 Flarum 的主頁和管理頁面上各個元素！
+

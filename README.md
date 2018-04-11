@@ -78,3 +78,4 @@ https://vivaldi.club
   - wiseclock-reply2see
   - wuethrich44-sso
   - xengine-signature
+  - zaptech-global-color-changer
