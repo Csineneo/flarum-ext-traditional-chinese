@@ -68,6 +68,7 @@ https://vivaldi.club
   - krombox-auth-wordpress
   - pnobbe-oauth-discord
   - reflar-gamification
+	- reflar-nightmode
   - reflar-reactions
   - reflar-twofactor
   - reflar-usermanagement
