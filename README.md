@@ -69,6 +69,7 @@ https://vivaldi.club
   - pnobbe-oauth-discord
   - reflar-gamification
 	- reflar-nightmode
+	- reflar-prettymail
   - reflar-reactions
   - reflar-twofactor
   - reflar-usermanagement
