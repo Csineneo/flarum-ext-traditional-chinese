@@ -1,7 +1,7 @@
 # https://github.com/ReFlar/twofactor/blob/master/locale/en.yml
 
 reflar-twofactor:
-    forum:
+  forum:
     text: "Your {forum} verification code is: {code}"
     accountlabel: 雙因素認證
     incorrect_2fa: 無效的認證碼
